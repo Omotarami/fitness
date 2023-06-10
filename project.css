@@ -1,23 +1,24 @@
-body {
-    background-color: #070D0D;
-    background-image: url(/img/guy_gym3.jpg);
-    background-size:cover;
-    width:100%;
-    background-repeat: no-repeat;
+body{
+    background-color:#070D0D;
     margin: 0;
     padding: 0;
+}  
+.container {
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+  }
+header {
+    background: url(/img/guy_gym3.jpg)100%;
+    background-size:cover;
+     width:100%;
+    /* height:100%;  */
+    position:absolute;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#bottomframe1{
-    position:absolute;
-    background-color: black;
-    width:100%;
-    height:300px;
-    /* padding:30px; */
-    margin-top:60%;
-    font-family:Verdana, Tahoma, sans-serif; 
-}
 .logo{
     position: absolute;
     /* left:10px; */
@@ -25,6 +26,8 @@ body {
     color:beige;
     padding-left:10px;
     margin-top: 20px;
+
+
 }
 
 #links ul{
@@ -50,7 +53,7 @@ body {
 
 #links a:hover{
     color:orangered;
-    text-decoration:underline;
+    text-decoration:line-through;
     cursor:pointer;
 } 
 #icon{
@@ -62,20 +65,71 @@ body {
     margin-top:20px;
 }
 .text{
-    margin-right:20%;
-    margin-left:80%;
-    margin-top:20%;
-    margin-bottom:60%;
+    margin-right:10%;
+    margin-top:10%;
     color:beige;
     float:right;
     font-size:40px;
 }
- button{
-    left: 1180px;
-    top:25px;
+.button{
     width:150px;
-    height:60px;
+    height:50px;
     background-color: orangered;
     color:white;
-    border:none;           
+    border-radius:3px;
+ }
+
+    #bottomframe1{
+        position:absolute;
+        background-color: black;
+        width:100%;
+        height:50%;
+        margin-top:40%;
+        font-family:Verdana, Tahoma, sans-serif; 
     }
+    .bottombtn{
+        border: none;
+        border-radius:50%;
+        width:70px;
+        height:70px;
+        background-color:#070D0D;
+        margin-right:100px;
+        margin-left:100px;
+      }
+.bottombtn:hover{
+    background-color:orangered;
+ }
+    .iconbox{
+    width:260px;
+    height:200px;
+    float:left;
+    background-color: none;
+    border-radius:8px;
+    margin-right: 38px;
+    padding:8px;
+    border:3px; 
+      }
+img{
+    color:black;
+     width:40px;
+    height:40px;
+}
+.bottomframe1text{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color:#707070;
+ }
+ .container1{
+    width:100%;
+    margin:0;
+    padding-bottom: 200%;
+ }  
+ 
+ .container1 p{
+    color:orangered;
+    text-align:center;
+  }
+      
+
+ 
