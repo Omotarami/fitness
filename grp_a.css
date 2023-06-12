@@ -55,3 +55,88 @@ h2{
 font-size:20px;
 color:orangered;
 }
+/* continuaton */
+.container1{
+padding-bottom:1000px;
+padding-top:1000px;
+
+ } 
+ 
+.container1 p{
+  color:orangered;
+  text-align:center;
+  margin-top: 125px;
+}
+.container1 h1{
+  text-align: center;
+  color:white;
+}
+.box{
+  width:360px;
+  /* height:300px; */
+  background-color: none;
+  border:1px ridge lightgrey;
+  transform:skew(-3deg,-3deg);
+  float: left;
+  margin-left:50px;
+  text-align: center;
+}
+.box:hover{
+  background-color: white;
+  transition:0.3s ease-in-out;
+ 
+}
+ .box h1{
+  text-align: center;
+  color:white;
+  transform: skew(3deg,3deg);
+  font-size: 20px;
+}
+.box:hover h1{
+  color: black;
+  transition:0.3s ease-in-out;
+}
+
+.box h2{
+  text-align: center;
+  transform: skew(3deg,3deg);
+  font-size: 60px;
+  margin:0;
+  color: orangered;
+}
+.box h3{
+  text-align: center;
+  transform: skew(3deg,3deg);
+  font-size: 15px;
+  margin:0;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.box:hover h3{
+  color: black;
+  transition:0.3s ease-in-out;
+}
+
+.box p{
+  text-align:center;
+  color:#707070;
+  transform: skew(3deg,3deg);
+  margin-top:20px;
+}
+
+.box button{
+  width:300px;
+  height:50px;
+  background-color:#707070;
+  border-radius:1px;
+  color:white;
+  transform: skew(3deg,3deg);
+  text-align:center;
+  margin:30px;
+  top:50%
+} 
+
+.box:hover button{
+  background-color: orangered;
+  transition:0.3s ease-in-out;
+}
